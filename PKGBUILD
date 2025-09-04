@@ -21,10 +21,10 @@ replaces=()
 options=()
 install=
 #changelog=
-source=("$pkgname-$pkgver.tar.gz"
+source=("https://github.com/barsant/bashell/blob/main/$pkgname-$pkgver.tar.gz"
         )
 #noextract=()
-sha256sums=('78b442f2350deb1b48f33d558228f012d9f396201907534d6383930e4fc29e47')
+sha256sums=('942dc4ea2954d8a8b54140a140ef642a526e177b6295ef1bb3e9c86c3633aca5')
 #validpgpkeys=()
 
 #prepare() {
@@ -38,10 +38,6 @@ build() {
 	make
 }
 
-#check() {
-#	cd "$pkgname-$pkgver"
-#	make -k check
-#}
 
 package() {
 	cd "$pkgname-$pkgver" || return
