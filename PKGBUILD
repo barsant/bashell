@@ -24,7 +24,7 @@ install=
 source=("https://github.com/barsant/bashell/blob/main/sources/$pkgname-$pkgver.tar.gz"
         )
 #noextract=()
-sha256sums=('a9ba68285932a140dc2603a27e8676e6d99bc5e1e4d3769abe861502c2a6dd35')
+sha256sums=('41b7b8bea1bab16d311998981d05254ba059d89d40bbe9a0d0f7639f796a4b74')
 #validpgpkeys=()
 
 #prepare() {
