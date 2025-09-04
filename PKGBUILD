@@ -21,10 +21,10 @@ replaces=()
 options=()
 install=
 #changelog=
-source=("https://github.com/barsant/bashell/blob/main/$pkgname-$pkgver.tar.gz"
+source=("https://github.com/barsant/bashell/blob/main/sources/$pkgname-$pkgver.tar.gz"
         )
 #noextract=()
-sha256sums=('942dc4ea2954d8a8b54140a140ef642a526e177b6295ef1bb3e9c86c3633aca5')
+sha256sums=('b226cabd539f1436d46a5662db63dca77fdac55040b33c21c205412883771701')
 #validpgpkeys=()
 
 #prepare() {
